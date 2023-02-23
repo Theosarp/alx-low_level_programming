@@ -4,7 +4,7 @@
 
 /**
  * main - Prints the last digit of a random number
- * and if it's greater than 5, less than 6, or 0.
+ * and if it is greater than 5, less than 6, or 0.
  *
  * Return: Always 0.
  */
@@ -21,12 +21,12 @@ int main(void)
 	}
 	else if ((n % 10) < 6 && (n % 10) != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6  not 0\n",
+		printf("Last digit of %d is %d and is less than 6 and  not 0\n",
 				n, n % 10);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and it's 0\n",
+		printf("Last digit of %d is %d and is 0\n",
 				n, n % 10);
 	}
 	return (0);
